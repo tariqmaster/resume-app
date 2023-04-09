@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./component/about-me";
 import { aboutMe, skills, professionalData } from "../data/page-data";
 import ProfessionalExperience from "./component/professional-experience";
+import Link from "next/link";
 
 const page = () => {
 	return (<>
